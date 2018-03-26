@@ -1,0 +1,11 @@
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.deps.json
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.runtimeconfig.json
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.runtimeconfig.dev.json
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.dll
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\bin\Debug\netcoreapp2.0\Library.API.pdb
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.csprojResolveAssemblyReference.cache
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.csproj.CoreCompileInputs.cache
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.AssemblyInfoInputs.cache
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.AssemblyInfo.cs
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.dll
+C:\Users\jgallegos\source\repos\PluralsightApiCourse\02\demos\csproj_msbuild_core2\start-end\Library\src\Library.API\obj\Debug\netcoreapp2.0\Library.API.pdb
