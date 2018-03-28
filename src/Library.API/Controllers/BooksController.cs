@@ -80,5 +80,67 @@ namespace Library.API.Controllers
 
             return CreatedAtRoute("GetBookForAuthor", new {authorId = authorId, id = bookToReturn.Id}, bookToReturn);
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult DeleteBookForAuthor(Guid authorId, Guid id)
+        {
+            if (!_libraryRepository.AuthorExists(authorId))
+            {
+                return NotFound();
+            }
+
+            var bookForAuthorFromRep = _libraryRepository.GetBookForAuthor(authorId, id);
+            if (bookForAuthorFromRep == null)
+            {
+                return NotFound();
+            }
+
+            _libraryRepository.DeleteBook(bookForAuthorFromRep);
+
+            if (!_libraryRepository.Save())
+            {
+                throw new Exception($"Deleting book {id} from {authorId} failed on save.");
+
+            }
+
+            return NoContent();
+
+        }
+
+        //[HttpPut("{id}")]
+        //public IActionResult UpdateBookForAuthor(Guid authorId, Guid id, [FromBody] BookForUpdateDto book)
+        //{
+        //    if (book == null)
+        //    {
+        //        return BadRequest();
+        //    }
+
+        //    if (!_libraryRepository.AuthorExists(authorId))
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var bookForAuthorFromRep = _libraryRepository.GetBookForAuthor(authorId, id);
+        //    if (bookForAuthorFromRep == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    //map
+
+        //    //apply update
+
+        //    //map back to entity
+        //    Mapper.Map(book, bookForAuthorFromRep);
+
+        //    _libraryRepository.UpdateBookForAuthor(bookForAuthorFromRep);
+
+        //    if (!_libraryRepository.Save())
+        //    {
+        //        throw new Exception("This book failed to update");
+        //    }
+
+        //}
+
     }
 }
